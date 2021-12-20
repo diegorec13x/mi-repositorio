@@ -1,0 +1,142 @@
+.menuprincipal{
+    color: blue;
+    height: 125px;
+    width: 190px;
+    border: solid 20px black;
+    font-family: fantasy;
+    font-size: 40px;
+    margin: 10px;
+    padding-left: 10px;
+}
+body{
+    background-color:chocolate;
+}
+.perifericos{
+    color:darkblue;
+    font-style: oblique;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+    grid-area: "perifericos";
+
+
+}
+.procesadores{
+    color:darkcyan;
+    font-style: initial;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+    grid-area: "procesadores";
+}
+.placasdevideo{
+    color:darkslategray;
+    font-style: unset;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+    grid-area: "placasdevideo";
+}
+.notebook{
+    color:darkgreen;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+    grid-area: "notebook";
+}
+#lista{
+    list-style-type: upper-roman;
+}
+.ubicacion{
+    color:cornflowerblue;   
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+    grid-area: "ubicacion";
+}
+.contacto{
+    color:fuchsia;
+    font-style:normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+    grid-area: "contacto";
+}
+
+.ubi2{
+    color:darkkhaki;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+}
+#mouse{
+    color:firebrick;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+}
+#teclado{
+    color:greenyellow;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+}
+#placasdevideo{
+    color:teal;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+}
+#procesadores{
+    color:purple;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+
+}
+#pcs{
+    color:olive;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    grid-template-areas:
+    "perifericos"
+    "placasdevideo"
+    "notebook"
+    "contacto"
+    "ubicacion"
+    "procesadores";
+    
+}
+.grid-container div{
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+
+}
+.gridcontainerbody{
+display :grid;
+margin-left: 500px;
+}
+.footer{
+    display: grid;
+    border: 2px solid palegreen;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    margin: 10px;
+}
