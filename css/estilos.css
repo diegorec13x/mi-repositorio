@@ -10,6 +10,7 @@
 }
 body{
     background-color:chocolate;
+    background-image: linear-gradient(to right, chocolate , yellow);
 }
 .perifericos{
     color:darkblue;
@@ -18,8 +19,12 @@ body{
     font-size: 20px;
     line-height: 2.0;
     grid-area: "perifericos";
-
-
+    transform: translate(250px, 50px);
+    transition:  all 1s;
+}
+.perifericos:hover{
+    font-size: 50px;
+    background-color: darkviolet;
 }
 .procesadores{
     color:darkcyan;
@@ -28,6 +33,12 @@ body{
     font-size: 20px;
     line-height: 2.0;
     grid-area: "procesadores";
+    transform: translate(250px, 50px);
+    transition: all 1s;
+}
+.procesadores:hover{
+    font-size: 50px;
+    background-color: darkblue;
 }
 .placasdevideo{
     color:darkslategray;
@@ -36,6 +47,12 @@ body{
     font-size: 20px;
     line-height: 2.0;
     grid-area: "placasdevideo";
+    transform: translate(250px, 50px);
+    transition: all 1s;
+}
+.placasdevideo:hover{
+    font-size: 50px;
+    background-color: darkolivegreen;
 }
 .notebook{
     color:darkgreen;
@@ -44,6 +61,12 @@ body{
     font-size: 20px;
     line-height: 2.0;
     grid-area: "notebook";
+    transform: translate(250px, 50px);
+    transition:  all 1s;
+}
+.notebook:hover{
+    font-size: 50px;
+    background-color: darkred;
 }
 #lista{
     list-style-type: upper-roman;
@@ -55,6 +78,12 @@ body{
     font-size: 20px;
     line-height: 2.0;
     grid-area: "ubicacion";
+    transform: translate(250px, 50px);
+    transition:  all 1s;
+}
+.ubicacion:hover{
+    font-size: 50px;
+    background-color: darkturquoise;
 }
 .contacto{
     color:fuchsia;
@@ -63,6 +92,12 @@ body{
     font-size: 20px;
     line-height: 2.0;
     grid-area: "contacto";
+    transform: translate(250px, 50px);
+    transition:  all 1s;
+}
+.contacto:hover{
+    font-size: 50px;
+    background-color: darkseagreen;
 }
 
 .ubi2{
