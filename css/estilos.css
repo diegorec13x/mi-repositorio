@@ -21,7 +21,31 @@ body{
     grid-area: "perifericos";
     transform: translate(250px, 50px);
     transition:  all 1s;
+    animation-name: efecto1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: ;
 }
+
+
+@keyframes efecto1 {
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+height: 150px;
+width: 150px;
+    }
+    100%{
+        background-color: chocolate;
+    }
+}
+
 .perifericos:hover{
     font-size: 50px;
     background-color: darkviolet;
@@ -35,6 +59,11 @@ body{
     grid-area: "procesadores";
     transform: translate(250px, 50px);
     transition: all 1s;
+    animation-name: efecto1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: ;
 }
 .procesadores:hover{
     font-size: 50px;
@@ -49,6 +78,11 @@ body{
     grid-area: "placasdevideo";
     transform: translate(250px, 50px);
     transition: all 1s;
+    animation-name: efecto1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: ;
 }
 .placasdevideo:hover{
     font-size: 50px;
@@ -63,6 +97,11 @@ body{
     grid-area: "notebook";
     transform: translate(250px, 50px);
     transition:  all 1s;
+    animation-name: efecto1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: ;
 }
 .notebook:hover{
     font-size: 50px;
@@ -80,6 +119,11 @@ body{
     grid-area: "ubicacion";
     transform: translate(250px, 50px);
     transition:  all 1s;
+    animation-name: efecto1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: ;
 }
 .ubicacion:hover{
     font-size: 50px;
@@ -94,6 +138,11 @@ body{
     grid-area: "contacto";
     transform: translate(250px, 50px);
     transition:  all 1s;
+    animation-name: efecto1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: ;
 }
 .contacto:hover{
     font-size: 50px;
