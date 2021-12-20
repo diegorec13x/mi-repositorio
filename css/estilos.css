@@ -25,7 +25,6 @@ body{
     animation-duration: 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in;
-    animation-iteration-count: ;
 }
 
 
@@ -63,7 +62,6 @@ width: 150px;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in;
-    animation-iteration-count: ;
 }
 .procesadores:hover{
     font-size: 50px;
@@ -82,7 +80,6 @@ width: 150px;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in;
-    animation-iteration-count: ;
 }
 .placasdevideo:hover{
     font-size: 50px;
@@ -101,7 +98,6 @@ width: 150px;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in;
-    animation-iteration-count: ;
 }
 .notebook:hover{
     font-size: 50px;
@@ -123,7 +119,6 @@ width: 150px;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in;
-    animation-iteration-count: ;
 }
 .ubicacion:hover{
     font-size: 50px;
@@ -142,7 +137,6 @@ width: 150px;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in;
-    animation-iteration-count: ;
 }
 .contacto:hover{
     font-size: 50px;
